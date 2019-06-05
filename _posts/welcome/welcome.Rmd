@@ -1,0 +1,28 @@
+---
+title: "Welcome to Locus: Richard Careaga"
+description: |
+  Data science with an emphasis on R
+author:
+  - name: Richard Careaga
+    url: https://technocrat.rbind.io
+bibliography: biblio.bib
+date: 06-04-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+This equation is due to [@xie2015]
+$$
+\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
+$$
+
+
